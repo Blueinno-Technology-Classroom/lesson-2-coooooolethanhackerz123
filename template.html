@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intro-to-CSS</title>
+
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body style="margin: 0">
     <!-- ! Banner -->
@@ -13,8 +15,8 @@
       width="100%" />
 
     <!-- ! Navigation Bar -->
-    <div>
-      <a href="#">Home</a>
+    <div class="it">
+      <a class="nav-bar-link" href="#">Home</a>
       <a href="#">About</a>
       <a href="#">Skills</a>
       <a href="#">Education</a>
@@ -28,11 +30,16 @@
     </div>
 
     <!-- ! Content -->
-    <div>
-      <h3>Hi, I'm {Name Here}</h3>
-      <img
-        src="https://i.pinimg.com/originals/0c/64/9a/0c649a17ec1e5f5ca340248b4ef4e4be.gif"
-        width="200" />
+    <div class="content-container">
+      <div class="greet-row">
+        <h3>Hi, I'm {Name Here} ETHAN</h3>
+        <div>
+          <img
+            class="rounded-img"
+            src="https://i.pinimg.com/originals/0c/64/9a/0c649a17ec1e5f5ca340248b4ef4e4be.gif"
+            width="200" />
+        </div>
+      </div>
 
       <h3>About Me</h3>
       <p>
